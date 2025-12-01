@@ -157,7 +157,7 @@ More work may be required for API calls that are less standard. For example, inv
 * Watch out for missed permissions on the role you pass in to assume. If you are testing or adding a new action, make sure that role has permissions to execute that action.
 * Some target resources are region sensitive, so make sure you are passing in the right region if in doubt.
 * Target API Gateways and Lambda URLs must have their authentication type set to `AWS_IAM` in order to be processed by the policy engine.
-* The default alphabet is just digits 0-9 so if you are enumerating something with other chatacters, make sure to pass your alphabet in.
+* The default alphabet is just digits 0-9 so if you are enumerating something with other characters, make sure to pass your alphabet in.
 
 ## License
 
